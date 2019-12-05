@@ -15,7 +15,7 @@ public class Test {
         for (Vehicle a : vehicle1) {
             a.go();
             a.stop();
-            a.getFuelNeeds();
+            a.calculateFuelConsumption();
             if (a instanceof Flying) {
                 ((Flying) a).callAirControl();
             }
