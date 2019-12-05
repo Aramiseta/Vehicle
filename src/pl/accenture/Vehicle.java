@@ -20,10 +20,12 @@ public abstract class Vehicle {
     }
 
     public void go(){
-        System.out.println("Rodzaj pojazdu: " + getClass().getSimpleName() + " Nazwa pojazdu: " + name);
+        System.out.println("Rodzaj pojazdu: " + getClass().getSimpleName() + " Nazwa pojazdu: " + name + " Wydajność: "
+                + calculateFuelConsumption());
     }
 
     public void stop(){
-        System.out.println("Rodzaj pojazdu: " + getClass().getSimpleName() + " Nazwa pojazdu: " + name);
+        System.out.println("Rodzaj pojazdu: " + getClass().getSimpleName() + " Nazwa pojazdu: " + name+ " Wydajność: "
+                + calculateFuelConsumption());
     }
 }

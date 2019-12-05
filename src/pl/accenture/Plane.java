@@ -22,12 +22,12 @@ public class Plane extends Vehicle implements Flying {
 
     @Override
     public double getDistance() {
-        return 0;
+        return 6;
     }
 
     @Override
     public double getFuelNeeds() {
-        return 0;
+        return 12;
     }
 
     @Override
